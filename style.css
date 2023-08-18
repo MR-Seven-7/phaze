@@ -393,17 +393,8 @@ footer {
 
 .snap-container {
     height: calc(100vh - 80px);
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
 }
 
-.animate-aos {
-    scroll-snap-align: start;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
 
 
 /* @media (max-width: 600px) {
